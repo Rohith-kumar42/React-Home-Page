@@ -1,0 +1,197 @@
+.App {
+  overflow-x: hidden;
+  background-color: rgb(246, 237, 226);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  margin-top: -25px;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.Nav{
+  display:flex;
+}
+.navMenu{
+  display: flex;
+  align-items: center;
+  margin-left: 350px;
+  margin-top: -5px;
+  font-weight: 600;
+}
+.navMenu li{
+  list-style: none;
+  margin-left: 50px;
+}
+.login{
+  margin-left: 480px;
+  background-color: #ff6e2a;
+  padding: none;
+  border: none;
+  height: 35px;
+  width: 60px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.Features{
+  background-color: white;
+  margin-left: 100px;
+  width: 90%;
+  border-radius: 10px;
+}
+.featuresimage{
+  display: flex;
+  padding-left: 100px;
+}
+.featuresimage img{
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+.highlight{
+  margin-left: 40px;
+}
+.title{
+  margin-left: 110px;
+  font-weight: 500;
+}
+.Mission{
+  background-color: white;
+  margin-left: 100px;
+  width: 90%;
+  border-radius: 10px
+}
+.Mission h2,p{
+  margin-left: 40px;
+}
+.Mission p{
+  width: 30%;
+}
+.stats{
+  display: flex;
+  margin-left: 340px;
+  margin-top: -80px;
+}
+.statsContent h3:nth-child(1){
+  margin-left: 30px;
+}
+.stats1{
+  display: flex;
+  margin-left: 340px;
+  margin-top: 20px;
+}
+.statsContent,.statsContent1{
+  width: 150px;
+}
+.statsContent h3{
+  margin-left: 30px;
+}
+.Components{
+    background-color: rgb(246, 237, 226);
+    margin-left: 100px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 50px;
+}
+.Components{
+  margin-left: 100px;
+  width: 90%;
+}
+.componentContent{
+  border-radius: 10px;
+  width: 700px;
+  background-color: rgb(255, 255, 255);
+}
+.componentContent h2{
+  margin-left: 30px;
+}
+.componentContent1{
+  margin-left: 50px;
+  width: 50%;
+  height: 169px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.componentContent1 p{
+  margin-left: 30px;
+  margin-top: 50px;
+}
+footer {
+  background-color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 90%;
+  border-radius: 10px;
+  display:flex;
+}
+
+footer div:nth-child(2){
+  margin-left: 170px;
+}
+footer h3{
+  margin-left: 40px;
+}
+footer ul{
+  text-decoration: none;
+  li::before{ 
+    content: "\003E";
+    font-size: 15px; 
+  line-height: 20px; 
+  display: inline-block;
+  transform: scaleY(1.5) scaleX(0.5); 
+} 
+  list-style-type: none;
+}
+footer li a{
+  text-decoration: none;
+  color:rgb(127, 127, 127);
+}
+div h3 ul{
+  margin-left: 300px;
+}
+footer h2{
+  margin-top:0px;
+  margin-left: 50px;
+}
+footer img{
+  margin-top: 0px;
+  margin-left: 50px;
+  height: 80px;
+  width: 170px;
+}
+.homeContent{
+  width: 90%;
+  margin-left: 100px;
+  border-radius: 10px;
+  display: flex;
+}
+.homeContent p{
+  margin-top: 150px;
+  margin-left: -310px;
+}
+.homeContent h1{
+  margin-left: 40px;
+}
+.cellfile{
+  height: 250px;
+  width: 250px;
+  margin-left: 200px;
+}
