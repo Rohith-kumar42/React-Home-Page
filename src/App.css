@@ -181,17 +181,42 @@ footer img{
   width: 90%;
   margin-left: 100px;
   border-radius: 10px;
-  display: flex;
 }
-.homeContent p{
-  margin-top: 150px;
-  margin-left: -310px;
-}
+
 .homeContent h1{
   margin-left: 40px;
 }
 .cellfile{
   height: 250px;
   width: 250px;
-  margin-left: 200px;
+  margin-left: 600px;
+  margin-top: -220px;
+}
+.register-button{
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-top: -10px;
+}
+.register-button button{
+  background-color: #ff6e2a;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 100px;
+  height: 40px;
+  margin-top: 20px;
+}
+.mobile{
+  height: 250px;
+  width: 250px;
+  margin-left: 340px;
+margin-top: -110px;
+}
+.phone{
+  margin-left: 100px;
+  margin-top: 5px;
+  height: 200px;
+  width: 200px;
 }
