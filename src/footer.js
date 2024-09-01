@@ -27,16 +27,21 @@ const Footer = () => {
       ]
     }
   ];
-
+  const cn=[
+    {name:"section1"},
+    {name:"section2"},
+    {name:"section3"}
+  ]
   return (
-    <footer style={{ display: 'flex'}}>
-      <di>
-      <img src="./logo1.png"></img>
+    <footer >
+      <div className='footer-header'>
+      <img src="./logo1.png" alt='logo'></img>
       <h2 className="para">
       Collect your components under variant sections<br/>for developers to access them during development<br/>developers to access them during development
-      </h2></di>
+      </h2></div>
+    <div className='footer-content'>
       {sections.map((section, index) => (
-        <div key={index}>
+        <div key={index} className={cn[index].name}>
           <h3>{section.title}</h3>
           <ul>
             {section.items.map((item, subIndex) => (
@@ -47,6 +52,7 @@ const Footer = () => {
           </ul>
         </div>
       ))}
+      </div>
     </footer>
   );
 };

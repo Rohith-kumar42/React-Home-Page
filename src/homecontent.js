@@ -10,11 +10,12 @@ function HomeContent() {
            </p>
            <img src="cellfile.avif" className="cellfile" />
            <div className="register-button">
-            <div style={{display:"flex",backgroundColor:"white",borderRadius:"10px",height:"80px"}}>
+            <div style={{backgroundColor:"white",borderRadius:"10px"}} className='register-content'>
             <p className='register'>Register using your email address</p>
-            <p className='email' style={{marginLeft:"-240px",marginTop:"50px"}}>company@company.com</p>
+            <p className='email'>company@company.com</p>
             <button style={{marginRight:"30px"}}>Register</button>
             </div>
+           
            <img src='phone.jpeg'className='phone' />
            </div>
            <img src='mobile.jpeg' className='mobile'/>
