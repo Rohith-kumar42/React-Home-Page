@@ -82,7 +82,7 @@
 .Mission h2,p{
   margin-left: 40px;
 }
-.Mission p{
+.missionp{
   width: 30%;
 }
 .stats{
@@ -306,10 +306,10 @@ margin-top: -110px;
 .Mission h2:nth-child(2){
   margin-left: 270px;
 }
-.Mission p{
+.missionp{
   margin-top: 0px;
-  margin-left: 180px;
-  width: 50%;
+  margin-left: 120px;
+  width: 500px;
   text-align: center;
 }
 .stats{
@@ -322,6 +322,12 @@ margin-top: -110px;
 }
 .statsContent1{
   margin-left: 140px;
+}
+.header1{
+  margin-left: 30px;
+}
+.pcontent1 p{
+  padding-left: -500px;
 }
 .Components{
   margin-left: 70px;
@@ -348,7 +354,7 @@ footer{
   }
   .para{
     width: 790px;
-    margin-left: 50px;
+    margin-left: 100px;
   }
   .section1,.section2,.section3{
     margin-top: 00px;
@@ -362,19 +368,19 @@ footer{
   }
 }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:425px) {
   .logo{
-    margin-left: 130px;
+    margin-left: 150px;
   }
   .navMenu{ 
-    margin-left: -305px;
+    margin-left: -285px;
     margin-top: 0px;
   }
   .navMenu li{
     margin-right: -30px;
   }
   .login{
-    margin-left: -125px;
+    margin-left: -145px;
     margin-top: 90px;
   }
   .homeContent{
@@ -382,19 +388,23 @@ footer{
   }
   .homeContent h1{
     margin-left: 70px;
-    font-size: larger;
+    font-size: 4ch;
     text-align: center;
+  }
+  .p{
+    font-size: 20px;
   }
   .homeContent p{
     margin-left: 70px;
     text-align: center;
   }
   .cellfile{
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 0px;
   }
   .register-button{
     margin-top: 0px;
+    margin-left: 160px;
     }
   .register-content{
    height:140px;
@@ -422,7 +432,7 @@ footer{
     margin-left: -250px;
   }
   .mobile{
-    margin-left: 48px;
+    margin-left: 68px;
     margin-top: 30px;
   }
   .Features{
@@ -430,10 +440,10 @@ footer{
     width: 80%;
   }
   .highlight{
-    margin-left: 60px;
+    margin-left: 75px;
   }
   .featuresimage{
-    margin-left: -20px; 
+    margin-left: 0px; 
     display: block;
     height: 870px;
   }
@@ -447,25 +457,31 @@ footer{
     width: 80%;
   }
   .Mission h2{
-    margin-left: 55px;
+    margin-left: 75px;
     padding-top: 20px;
   }
   .Mission h2:nth-child(2){
-    margin-left: 45px;
+    margin-left: 65px;
     padding-top:0px ;
   }
-  .Mission p{
+  .missionp{
     margin-left: 20px;
     width: 90%;
   }
   .stats{
-    margin-left: 20px;
+    margin-left: 30px;
     display: block;
   }
   .stats1{
-    margin-left: -50px;
+    margin-left: -40px;
     display: block;
     padding-bottom: 10px;
+  }
+  .pcontent1{
+    margin-left: 30px;
+  }
+  .pcontent2{
+    margin-left: 30px;
   }
   .Components{
     display: block;
@@ -488,7 +504,7 @@ footer{
   }
   footer{
     margin-left: 50px;
-    width: 260px;
+    width: 310px;
   }
   footer img{
     margin-left: 120px;
@@ -498,7 +514,7 @@ footer{
     margin-left: -35px;
   }
   .para{
-    margin-left: -50px;
+    padding-left:-100px;
     font-size: 10px;
     margin-top: -10px;
     width:fit-content;
@@ -507,13 +523,13 @@ footer{
     display: none;
   }
   .section1{
-    margin-left: -70px;
+    margin-left: 70px;
     h3{
-      margin-left: -50px;
+      margin-left: -10px;
       font-size: 10px;
     }
    ul{
-    margin-left: -90px;
+    margin-left: -50px;
     font-size: 10px;
     width: 80px;
    }

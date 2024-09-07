@@ -6,17 +6,19 @@ function Mission() {
         {head:"1 M+",tail:"Activecontacts"}
     ]
     const stats1=[
-        {head:"100 +",tail:'Campaignsper day'},
+        {head:"100 +",tail:'Campaigns per day'},
         {head:"10 X",tail:'Speed'} 
     ]
+    const cn2=[
+        {cname1:"pcontent1"},
+        {cname1:"pcontent2"}
+    ]
+   
     return (
         <div className="Mission">
             <h2>Why Spotknack</h2>
             <h2>Our mission is user</h2>
-            <p>Convenience
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut 
-                odit aut fugit, sed quia consequuntur magni dolores eos qui
-                ratione voluptatem sequit.</p>
+            <p className='missionp'>Convenience Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequit.</p>
             <div className="stats">
                 {stats.map((i,index) => 
                 {
@@ -26,13 +28,13 @@ function Mission() {
             <div className="stats1">
                 {stats1.map((i,index) => 
                 {
-                    return <MissionContent key={index} head1={stats1[index].head} tail1={stats1[index].tail}/>
+                    return <MissionContent key={index} head1={stats1[index].head} tail1={stats1[index].tail} cname1={cn2[index].cname1} />
                 })}
             </div>
         </div>
     );
 }
-function MissionContent({head,tail,head1,tail1}){
+function MissionContent({head,tail,head1,tail1,cname1}){
     return (
         <div>
         <div className="stats">
@@ -44,8 +46,8 @@ function MissionContent({head,tail,head1,tail1}){
         </div>
         <div className="stats1">
             <div className="statsContent1">
-            <h3 style={{marginLeft:"30px"}}>{head1}</h3>
-            <p style={{marginLeft:"30px"}}>{tail1}</p>
+            <h3 className='header1'>{head1}</h3>
+            <p  className={cname1}>{tail1}</p>
             </div>
             
             </div>
